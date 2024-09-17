@@ -1,0 +1,60 @@
+[
+    {
+        "model": "base.ingredient",
+        "pk": 1,
+        "fields": {
+            "name": "Beef",
+            "stock": 20000
+        }
+    },
+    {
+        "model": "base.ingredient",
+        "pk": 2,
+        "fields": {
+            "name": "Cheese",
+            "stock": 5000
+        }
+    },
+    {
+        "model": "base.ingredient",
+        "pk": 3,
+        "fields": {
+            "name": "Onion",
+            "stock": 1000
+        }
+    },
+    {
+        "model": "base.product",
+        "pk": 1,
+        "fields": {
+            "name": "Burger"
+        }
+    },
+    {
+        "model": "base.productingredient",
+        "pk": 1,
+        "fields": {
+            "product": 1,
+            "ingredient": 1,
+            "amount": 150
+        }
+    },
+    {
+        "model": "base.productingredient",
+        "pk": 2,
+        "fields": {
+            "product": 1,
+            "ingredient": 2,
+            "amount": 30
+        }
+    },
+    {
+        "model": "base.productingredient",
+        "pk": 3,
+        "fields": {
+            "product": 1,
+            "ingredient": 3,
+            "amount": 20
+        }
+    }
+]
